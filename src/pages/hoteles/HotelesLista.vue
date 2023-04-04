@@ -101,6 +101,9 @@ export default {
     recibidoShowModal(showModal){
        this.showModal = showModal;
     },
+    recibidoDatos(datos){//datos que vienen del conponente registras hijo para cargar la lista
+       this.datos = datos;
+    },
     getFiltrarTabla(){
       var input, filter, table, tr, td, i, txtValue;
       input = document.getElementById("myInput");
